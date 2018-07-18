@@ -17,7 +17,7 @@ public class StudentController {
 
 	@Autowired
 	private StudentService studentService;
-	
+//	修改-4
 	@RequestMapping("/getAllStudent")
 	@ResponseBody
 	public List<Student> getAllStudent(){
